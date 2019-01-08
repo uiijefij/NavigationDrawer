@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/point"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text=","
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but0"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@+id/point"
+        android:layout_toEndOf="@+id/point"
+        android:text="0"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/ravno"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@+id/point"
+        android:layout_toEndOf="@+id/but0"
+        android:text="="
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/plus"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="73dp"
+        android:layout_alignBottom="@+id/point"
+        android:layout_toEndOf="@+id/ravno"
+        android:text="+"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/but1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/point"
+        android:layout_alignStart="@+id/point"
+        android:text="1"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/point"
+        android:layout_alignEnd="@+id/but0"
+        android:text="2"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/point"
+        android:layout_alignEnd="@+id/ravno"
+        android:text="3"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/but1"
+        android:layout_alignEnd="@+id/point"
+        android:text="4"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/but1"
+        android:layout_alignEnd="@+id/but0"
+        android:text="5"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but6"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/but1"
+        android:layout_toEndOf="@+id/but0"
+        android:text="6"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but7"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/but4"
+        android:layout_alignEnd="@+id/point"
+        android:text="7"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but8"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/but4"
+        android:layout_alignEnd="@+id/but0"
+        android:text="8"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/but9"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/but4"
+        android:layout_alignEnd="@+id/ravno"
+        android:text="9"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/minus"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="73dp"
+        android:layout_above="@+id/plus"
+        android:layout_toEndOf="@+id/ravno"
+        android:text="-"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/umn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_above="@+id/minus"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="-8dp"
+        android:layout_toEndOf="@+id/ravno"
+        android:text="*"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/del"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="211dp"
+        android:layout_toEndOf="@+id/ravno"
+        android:text="/"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ud"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_above="@+id/del"
+        android:layout_toEndOf="@+id/ravno"
+        android:text="DEL"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/vvod"
+        android:layout_width="316dp"
+        android:layout_height="67dp"
+        android:layout_alignEnd="@+id/plus"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="right"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/vivod"
+        android:layout_width="230dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="right"
+        android:textSize="30sp" />
+
+</RelativeLayout>
